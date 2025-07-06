@@ -1,4 +1,4 @@
-package leetcode1865
+package challenge1865
 
 type FindSumPairs struct {
 	nums1 []int
