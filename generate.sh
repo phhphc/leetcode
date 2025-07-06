@@ -10,11 +10,11 @@ create_solution_template=""
 create_go_solution_template() {
   local challenge_id="$1"
   go mod init "github.com/phhphc/leetcode/$challenge_id/go"
-  echo -e "package challenge$challenge_id\n\n// TODO: Add solution" > "challenge$challenge_id.go"
+  echo -e "package challenge$challenge_id\n\n// TODO: Add solution" > "leetcode$challenge_id.go"
 }
 create_rust_solution_template() {
-  # TODO: add rust solution template
-  echo "TODO: add rust solution template"
+  local challenge_id="$1"
+  cargo init --vcs=none --lib --name="leetcode$challenge_id"
 }
 create_java_solution_template() {
   # TODO: add java solution template
