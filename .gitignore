@@ -1,4 +1,4 @@
 .idea/
 
-**/rust/target/
-**/rust/Cargo.lock
+[0-9]*/rust/target/
+[0-9]*/rust/Cargo.lock
